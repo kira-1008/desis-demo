@@ -1,0 +1,19 @@
+2022-03-19 00:55:53,619 INFO com.example.departmentservice.controller.DepartmentController [http-nio-9001-exec-5] Inside findDepartmentById method of DepartmentController
+2022-03-19 00:55:53,629 INFO com.example.departmentservice.service.DepartmentService [http-nio-9001-exec-5] Inside findDepartmentById of  DepartmentService
+2022-03-19 00:56:00,373 INFO com.example.departmentservice.controller.DepartmentController [http-nio-9001-exec-6] Inside save department method of DepartmentController
+2022-03-19 00:56:00,375 INFO com.example.departmentservice.service.DepartmentService [http-nio-9001-exec-6] Inside saveDepartment of  DepartmentService
+2022-03-19 00:56:06,291 INFO com.example.departmentservice.controller.DepartmentController [http-nio-9001-exec-7] Inside findDepartmentById method of DepartmentController
+2022-03-19 00:56:06,292 INFO com.example.departmentservice.service.DepartmentService [http-nio-9001-exec-7] Inside findDepartmentById of  DepartmentService
+2022-03-19 00:56:31,797 INFO org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration$2 [Thread-2] Flushing remaining spans on shutdown
+2022-03-19 00:56:32,248 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application DEPARTMENT-SERVICE with eureka with status DOWN
+2022-03-19 00:56:32,257 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1647631592257, current=DOWN, previous=UP]
+2022-03-19 00:56:32,263 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DEPARTMENT-SERVICE/localhost:DEPARTMENT-SERVICE:9001: registering service...
+2022-03-19 00:56:32,390 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_DEPARTMENT-SERVICE/localhost:DEPARTMENT-SERVICE:9001 - registration status: 204
+2022-03-19 00:56:32,768 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19 00:56:32,783 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringApplicationShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-19 00:56:32,852 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-03-19 00:56:32,885 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-03-19 00:56:33,431 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-03-19 00:56:37,775 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-03-19 00:56:42,646 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_DEPARTMENT-SERVICE/localhost:DEPARTMENT-SERVICE:9001 - deregister  status: 200
+2022-03-19 00:56:43,178 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
